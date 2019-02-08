@@ -1,0 +1,559 @@
+---
+title: 'Записаться'
+layout: base
+header-title: 'Онлайн-коучинг по эффективной коррекции веса'
+header-subtitle: 'Индивидуальная программа с&nbsp;учетом возраста, состояния здоровья и&nbsp;целей.'
+video: C7yLpaGm_xY
+---
+<div id="wrapper">
+    <header class="header{% if page.video %} large{% endif %}">
+        <div class="top">
+            <div class="container">
+                <div class="row justify-content-center align-content-center">
+                    <div class="col col-lg-10"><span class="descr">{{ site.author }}&nbsp;&mdash; {{ site.description }}</span></div>
+                </div>
+            </div>
+        </div>
+        {% if page.video %}
+        <div class="utp">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col col-lg-6 col-xl-5 offset-xl-1 text-center text-lg-left">
+                        <h1 class="utp__title">{{ page.header-title }}</h1>
+                        <p class="utp__descr">{{ page.header-subtitle }}</p>
+                        <button type="button" class="btn justify-content-md-center" data-toggle="modal" data-target="#modal">{{ page.title }}</button>
+    <!--                    <a href="#price" class="btn" type="button">{{ page.title }}</a>-->
+    <!--                    <a href="https://m.me/{{ site.fb_group_id }}?ref=/start" class="btn" type="button">{{ page.title }}</a>-->
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="embed-responsive embed-responsive-my">
+                          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ page.video }}?rel=0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% else %}
+
+        <div class="utp">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col col-lg-10 text-center">
+                        <h1 class="utp__title">{{ page.header-title }}</h1>
+                        <p class="utp__descr">{{ page.header-subtitle }}</p>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal">{{ page.title }}</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+
+        <div class="bullets">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-10 offset-md-1 col-lg-12 offset-lg-0 col-xl-10 offset-xl-1">
+                        <ul class="bullets__list">
+                           <li>Гарантированный результат до минус 10&nbsp;кг за 45&nbsp;дней с&nbsp;эффектом
+                               оздоровления и омоложения</li>
+                           <li>Профессиональное психологическое сопровождение и&nbsp;работа со
+                               специалистом с&nbsp;20-ти&nbsp;летним опытом работы в сфере здоровья</li>
+                           <li>Стабилизация веса, поддержание высокого уровня
+                               энергии на&nbsp;будущее при&nbsp;выполнении всех рекомендаций</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__next"><a href="#problems">&darr;</a></div>
+    </header>
+
+    <section class="sec problems" id="problems">
+        <div class="container">
+            <div class="row">
+                <div class="col offset-xl-1 col-xl-10">
+                    <h2 class="sec__title {% if site.target  == 'without picture' %} text-lg-center {% endif %}">Хочешь увидеть в&nbsp;зеркале новую себя?</h2>
+                    <p class="sec__descr {% if site.target  == 'without picture' %} text-lg-center {% endif %}">Ты знаешь, что никакая модная одежда не украсит тебя так, как стройное здоровое тело</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="{% if site.target  == 'without picture' %} col-lg-10 offset-lg-1{% else %}col-xl-8 offset-xl-1 {% endif %}">
+                    <ul class="problems__list">								
+                        <li><i class="i-problems"></i><span>Мечтаешь&nbsp;чувствовать себя уверенно и комфортно в своем
+                            теле, не бояться носить то,&nbsp;что нравится, и&nbsp;чувствовать себя хорошо</span></li>
+                        <li><i class="i-problems"></i><span>Не хочешь тратить время и&nbsp;ресурсы на&nbsp;поиски методик
+                            похудения, которые подойдут именно тебе</span></li>
+                        <li><i class="i-problems"></i><span>Навсегда избавиться от&nbsp;лишних килограммов
+                            без страха, что они&nbsp;вернуться снова</span></li>
+                        <li><i class="i-problems"></i><span>Желаешь худеть со&nbsp;своей скоростью
+                            без изнурительных физических нагрузок?</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec solutions">
+        <div class="container">
+            <div class="row">
+                <div class="col offset-xl-1 col-xl-10 {% if site.target  == 'without picture' %} text-lg-center{% else %}text-lg-right {% endif %}">
+                    <h2 class="sec__title {% if site.target  == 'without picture' %} text-lg-center {% endif %}">Почувствуй себя&nbsp;стройной и&nbsp;притягательной</h2>
+                    <p class="sec__descr {% if site.target  == 'without picture' %} text-lg-center pl-0{% endif %}">Индивидуальная работа с&nbsp;тренером поможет понять, что мешает тебе обрести идеальную фигуру</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="{% if site.target  == 'without picture' %} col-lg-10 offset-lg-1{% else %}col-lg-9 offset-lg-3 col-xl-8 {% endif %}">
+                    <ul class="solutions__list">	
+                        <li><i class="i-solutions"></i><span>Узнаешь предварительную причину своего лишнего веса и&nbsp;других проблем и&nbsp;неудачных
+                            попыток его&nbsp;самостоятельного снижения</span></li>
+                        <li><i class="i-solutions"></i><span>Получишь индивидуальное меню для&nbsp;наиболее эффективного снижения веса</span></li>
+                        <li><i class="i-solutions"></i><span>Будешь получать рекомендации от&nbsp;тренера и&nbsp;поддержку в&nbsp;режиме онлайн</span></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec format">
+        <div class="container">
+            <div class="row">
+                <div class="col offset-xl-1 col-xl-10">
+                    <h2 class="sec__title">Начни свой путь к&nbsp;стройности прямо сейчас</h2>
+                    <p class="sec__descr">На протяжении всего пути ты будешь получать подсказки и&nbsp;поддержку от&nbsp;профессионала</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-10 offset-xl-1">
+                    <ul class="format__list">		
+                        <li>
+                            <div class="format__icon"><img src="/images/template/{{ site.template }}/format/{% if site.target  == 'without picture' %}business{% else %}{{ site.target }}{% endif %}/1.png" alt=""></div>
+                            <p>Консультации проходят в&nbsp;онлайн-режиме</p>
+                        </li>
+                        <li>
+                            <div class="format__icon"><img src="/images/template/{{ site.template }}/format/{% if site.target  == 'without picture' %}business{% else %}{{ site.target }}{% endif %}/2.png" alt=""></div>
+                            <p>Ты можешь получить консультацию в любое время в&nbsp;удобном для тебя&nbsp;мессенджере</p>
+                        </li>
+                        <li>
+                            <div class="format__icon"><img src="/images/template/{{ site.template }}/format/{% if site.target  == 'without picture' %}business{% else %}{{ site.target }}{% endif %}/3.png" alt=""></div>
+                            <p>Ты&nbsp;получишь рекомендации, меню и&nbsp;приложения, план физических нагрузок и&nbsp;других
+                                оздоровительных процедур  которые подходят именно тебе</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec price" id="price">
+        <div class="container">
+            <div class="row">
+                <div class="col offset-xl-1 col-xl-10">
+                    <h2 class="sec__title">Получай необходимые знания в&nbsp;любое время в&nbsp;удобном формате</h2>
+                    <p class="sec__descr">Онлайн-консультации помогут тебе всегда быть на&nbsp;связи с&nbsp;тренером и&nbsp;получать нужные подсказки</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-xl-10 offset-xl-1">
+                    <ul class="price__list">
+                        <li>
+                            <div class="price__list-item">
+                                <p class="price__list-title">Пакет&nbsp;1</p>
+                                <p class="price__list-title">3&nbsp;часовая разовая консультация</p>
+                                <p class="price__list-amount">20 000<span>₽</span></p>
+                                <p class="price__list-descr">
+                                    <ul style="text-align: left;">
+                                        <li>
+                                            Подробный анализ состояния здоровья
+                                        </li>
+                                        <li>
+                                            Составление пошагового плана достижения нужного веса с&nbsp;учетом пожеланий клиента
+                                        </li>
+                                        <li>
+                                            Разработка оптимального режима и рациона питания на 30&nbsp;дней
+                                        </li>
+                                        <li>
+                                            Подбор или коррекция приема нутрицевтиков, БАДов, медикаментов, если это необходимо
+                                        </li>
+                                        <li>
+                                            Разработка фитнес тренировок
+                                        </li>
+                                        <li>
+                                            Рекомендации по выбору массажа и других СПА&nbsp;процедур  в зонах тела, требующих особого внимания ( лицо, живот, грудь и тд. )
+                                        </li>
+                                    </ul>
+                                </p>
+                                <p style="text-align: left"><em>Бонус:</em> Книга “ Как похудеть на&nbsp;10&nbsp;кг за 45&nbsp;дней”
+                                    <br>Видеоуроки дыхательных упражнений
+                                    <br>Видеоуроки по уходу за кожей при снижении веса
+                                </p>
+                                <ul class="price__list-features">
+                                <button type="button" class="btn" data-toggle="modal" data-target="#modal">{{ page.title }}</button>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="price__list-item">
+                                <p class="price__list-title">Пакет&nbsp;2</p>
+                                <p class="price__list-title">Пакет на Целый месяц</p>
+                                <p class="price__list-amount">50&nbsp;000<span>₽</span></p>
+                                <p class="price__list-descr">
+                                <ul style="text-align: left;">
+                                    <li>
+                                        Подробный анализ состояния здоровья
+                                    </li>
+                                    <li>
+                                        Составление пошагового плана достижения нужного веса с&nbsp;учетом пожеланий клиента
+                                    </li>
+                                    <li>
+                                        Составление плана очистки организма от шлаков и&nbsp;токсинов
+                                    </li>
+                                    <li>
+                                        Подбор или коррекция приема нутрицевтиков, БАДов, медикаментов, если это необходимо
+                                    </li>
+                                    <li>
+                                        Разработка фитнес тренировок
+                                    </li>
+                                    <li>
+                                        Рекомендации по выбору массажа и других СПА&nbsp;процедур  в зонах тела, требующих особого внимания (лицо, живот, грудь и тд.)
+                                    </li>
+                                    <li>
+                                        Разработка комплекса омолаживающих процедур для лица и зоны декольте.
+                                    </li>
+                                    <li>
+                                        Еженедельный Контроль  и анализ  9 показателей  по снижению веса ( масса тела, общий жир, мышечная масса, содержание воды в организме,
+                                        метаболический возраст, % висцерального жира, упругость кожи, уровня энергии, тяги к сладкому )
+                                    </li>
+                                    <li>
+                                        Еженедельная коррекция  рациона питания, физических нагрузок с учетом динамики снижения веса и потери жировой ткани
+                                    </li>
+                                    <li>
+                                        Коррекция  процедур ухода за лицом  при снижении веса
+                                    </li>
+                                    <li>
+                                        Онлайн поддержка в мессенджерах
+                                    </li>
+                                </ul>
+                                </p>
+                                <p style="text-align: left"><em>Бонус:</em>
+                                    <ul style="text-align: left;">
+                                        <li>
+                                            Книга “Как похудеть на 10 кг за 45 дней”
+                                        </li>
+                                        <li>
+                                            Видеоуроки дыхательных упражнений
+                                        </li>
+                                        <li>
+                                            Видеоуроки по уходу за кожей при снижении веса
+                                        </li>
+                                        <li>
+                                            12 базовых  видеоуроков по питанию, позволяющих
+                                            осознанно менять стиль и режим питания для получения и поддержания результата на будущее.
+                                        </li>
+                                        <li>
+                                            5 Доп видео на темы снижения веса при различных заболеваниях или состояниях
+                                        </li>
+                                        <li>
+                                            Организация консультаций дополнительных специалистов
+                                        </li>
+                                        <li>
+                                            Ссылки на полезные ресурсы и инструменты
+                                        </li>
+                                    </ul>
+                                <br>
+                                    <span style="font-weight: bold">При оплате сразу за 3 месяца цена 120 000 рублей</span>
+                                </p>
+                                <ul class="price__list-features">
+                                    <button type="button" class="btn" data-toggle="modal" data-target="#modal">{{ page.title }}</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style type="text/css">
+      .autor .autor__content .col.autor__pic {
+          background: #f7f9fb url("/images/photo.jpg") center top no-repeat;
+          -webkit-background-size: cover;
+          background-size: cover;
+      }
+    </style>
+    <section class="sec autor">
+        <div class="container">
+            <div class="row">
+                <div class="col offset-lg-1 col-lg-10">
+                    <h2 class="sec__title">{{ site.author }}</h2>
+                    <p class="sec__descr">Веди&nbsp;прежнюю&nbsp;активную жизнь в новом&nbsp;здоровом&nbsp;теле</p>
+                </div>
+            </div>
+
+            <div class="autor__content">
+                <div class="row no-gutters justify-content-center">
+                    <div class="col col-xl-auto autor__pic">{{ site.author }}</div>
+                    <div class="col col-xl-auto autor_col d-flex align-items-center">
+                        <ul class="autor__list iconed">
+                          <li>
+                              <p>Сбросила 22 килограмма с помощью своей методики</p>
+                          </li>
+                          <li>
+                              <p>Обучила более 5000 человек основам правильного питания</p>
+                          </li>
+                          <li>
+                              <p>Написала 2 книги на тему правильного питания</p>
+                          </li>
+                          <li>
+                              <p>Врач-нутрициолог</p>
+                          </li>
+                          <li>
+                              <p>Результаты её учеников — нормализация веса от 3 кг до 50 кг в возрастной группе от 10 лет до 75 лет</p>
+                          </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec case">
+        <div class="container">
+            <div class="row">
+                <div class="col offset-xl-1 col-xl-10">
+                    <h2 class="sec__title">Кейсы</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-2 offset-xl-1 align-self-center text-center">
+                    <div class="case__user">
+                        <div class="case__pic"><img src="/images/template/deep/user.png" alt=""></div>
+                        <p class="case__name"><a href="https://vk.com/elenkorableva"> Кораблева Елена,</a></p>
+                        <p class="case__info">город Пенза, организатор клубов питания</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 col-xl-4">
+                    <div class="case__was">
+                        <p class="case-title">Было</p>
+                        <ul class="case-list">
+                            <li>Впервые начала обучаться  клубам онлайн. C весом всегда были проблемы.
+                                Благодаря клубу питания она смогла уменьшить вес, но он не был идеальным.
+                                Вес был + 15 кг и возраст плюс 8 лет.
+                                Она очень сильно хотела не просто снизить вес, но и улучшить свое здоровье и получить результат.
+                            </li>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 col-xl-4">
+                    <div class="case__now">
+                        <p class="case-title">Стало</p>
+                        <ul class="case-list">
+                            <li>Она пришла и получила суперский результат по идеальному весу и сформированной фигуре.
+                                Выполняла все рекомендации: и психологические, и физические, и по питанию, и аффирмации, и медитации и тд.
+                                При росте 162 см вес 56, 7 кг.. В итоге у нее минус 15 кг и минус 28 лет метаболического возраста.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-2 offset-xl-1 align-self-center text-center">
+                    <div class="case__user">
+                        <div class="case__pic"><img src="/images/template/deep/user.png" alt=""></div>
+                        <p class="case__name"><a href="https://vk.com/id197138226"> Людмила Мышкина,</a></p>
+                        <p class="case__info">г. Барнаул, юрист, полковник в отставке</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 col-xl-4">
+                    <div class="case__was">
+                        <p class="case-title">Было</p>
+                        <ul class="case-list">
+                            <li>У нее была тяжелая онкологическая операция и длительная химиотерапия.
+                                Пришлось долго восстанавливаться и находить новый смысл жизни. Она пришла на курс по коррекции веса. </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 col-xl-4">
+                    <div class="case__now">
+                        <p class="case-title">Стало</p>
+                        <ul class="case-list">
+                            <li>Произошла трансформация Надо и Должна, пришло настоящая любовь к своему телу.
+                                Для нее это было очень важно.<br>
+                                Осознала ценность индивидуального коучинга, стала уверенной в себе. Глубоко понимает сейчас свое тело.
+                                Похудела на 7 кг, открыла вкус к жизни, появилось новое видение и новая цель. Создать свой клуб. </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-2 offset-xl-1 align-self-center text-center">
+                    <div class="case__user">
+                        <div class="case__pic"><img src="/images/template/deep/user.png" alt=""></div>
+                        <p class="case__name"><a href="https://vk.com/id197138226">Татьяна Вавилова</a></p>
+                        <p class="case__info"></p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 col-xl-4">
+                    <div class="case__was">
+                        <p class="case-title">Было</p>
+                        <ul class="case-list">
+                            <li>проблемы со здоровьем, большой процент жира в организме
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 col-xl-4">
+                    <div class="case__now">
+                        <p class="case-title">Стало</p>
+                        <ul class="case-list">
+                            <li>Теперь может грамотно консультировать тех, кто также хочет слушать свой вес.
+                                Дополнительные показатели: минус 3,2 % жира, внутренний жир пришел в норму.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-2 offset-xl-1 align-self-center text-center">
+                    <div class="case__user">
+                        <div class="case__pic"><img src="/images/template/deep/user.png" alt=""></div>
+                        <p class="case__name"><a href="https://www.facebook.com/natalia.sapun.3">Наталья Сапун</a> </p>
+                        <p class="case__info"></p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 col-xl-4">
+                    <div class="case__was">
+                        <p class="case-title">Было</p>
+                        <ul class="case-list">
+                            <li>8 кг лишнего веса, плохое самочувствие</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 col-xl-4">
+                    <div class="case__now">
+                        <p class="case-title">Стало</p>
+                        <ul class="case-list">
+                            <li>Снизила вес на 8, 5 кг . Появились новые привычки, научилась пить воду, и теперь
+                                делает это с удовольствием. Каждый день теперь начинает с физической зарядки.
+                                Не хочется сладкого, колбасы, даже сырокопченой. Перешла на 5-ти разовое питание.
+                                После 19 часов не кушает. Открыла свой клуб красоты и здоровья.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-2 offset-xl-1 align-self-center text-center">
+                    <div class="case__user">
+                        <div class="case__pic"><img src="/images/template/deep/user.png" alt=""></div>
+                        <p class="case__name"><a href="https://vk.com/id197138226">Юрий Гончаренко</a> </p>
+                        <p class="case__info"></p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 col-xl-4">
+                    <div class="case__was">
+                        <p class="case-title">Было</p>
+                        <ul class="case-list">
+                            <li>Имел лишний вес, бронхитом страдал более 40 лет,
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 col-xl-4">
+                    <div class="case__now">
+                        <p class="case-title">Стало</p>
+                        <ul class="case-list">
+                            <li>Начал правильно питаться, полностью избавился от бронхита,
+                                похудел на 15 кг, с лишним весом ушла утомляемость и лень,
+                                в теле появилась легкость, желание жить и творить.
+                                Изменилось сознание и многое встало на свои места. Появилась осмысленность жизни в целом. </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec diplomas"> <!-- odd-->
+        <div class="container">
+            <div class="row">
+                <div class="col offset-xl-1 col-xl-10">
+                    <h2 class="sec__title">Дипломы и&nbsp;сертификаты</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-xl-10 offset-xl-1">
+                    <div class="diplomas_list"> <!--если меньше 3-х diplomas_list -->
+                        <div class="diplomas_item">
+                            <a class="link-img" href="/images/license/01.jpg"><img src="/images/license/01.jpg" alt=""></a>
+                        </div>
+                        <div class="diplomas_item">
+                            <a class="link-img" href="/images/license/10.jpg"><img src="/images/license/10.jpg" alt=""></a>
+                        </div>
+                        <div class="diplomas_item">
+                            <a class="link-img" href="/images/license/02.jpg"><img src="/images/license/02.jpg" alt=""></a>
+                        </div>
+                        <div class="diplomas_item">
+                            <a class="link-img" href="/images/license/03.jpg"><img src="/images/license/03.jpg" alt=""></a>
+                        </div>
+                        <div class="diplomas_item">
+                            <a class="link-img" href="/images/license/04.jpg"><img src="/images/license/04.jpg" alt=""></a>
+                        </div>
+                        <div class="diplomas_item">
+                            <a class="link-img" href="/images/license/05.jpg"><img src="/images/license/05.jpg" alt=""></a>
+                        </div>
+                        <div class="diplomas_item">
+                            <a class="link-img" href="/images/license/06.jpg"><img src="/images/license/06.jpg" alt=""></a>
+                        </div>
+                        <div class="diplomas_item">
+                            <a class="link-img" href="/images/license/07.jpg"><img src="/images/license/07.jpg" alt=""></a>
+                        </div>
+                        <div class="diplomas_item">
+                            <a class="link-img" href="/images/license/08.jpg"><img src="/images/license/08.jpg" alt=""></a>
+                        </div>
+                        <div class="diplomas_item">
+                            <a class="link-img" href="/images/license/09.jpg"><img src="/images/license/09.jpg" alt=""></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec calltoact">
+        <div class="container">
+            <div class="row">
+                <div class="col offset-xl-1 col-xl-10 text-center">
+                    <h2 class="sec__title">Сделайте силу убеждения своим инструментом достижения успеха</h2>
+                    <p class="sec__descr"></p>
+                    <button type="button" class="btn" data-toggle="modal" data-target="#modal">{{ page.title }}</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {% include feedback.html %}
+
+    
+    <div class="container">
+        <hr  style="margin-top: 0;">
+    </div>
+    
+
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="modal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">{{ page.title }}</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            {% include form.html offer=site.offer trello=site.trello-list-id redirect=site.redirect %}
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+{% include footer.html %}
+
+            

@@ -1,0 +1,22 @@
+{
+  "name": "project.coach.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KK",
+  "license": "ISC",
+  "devDependencies": {
+    "child_process": "^1.0.2",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-jekyll": "0.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-notify": "^3.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^4.3.11",
+    "jshint": "^2.9.5"
+  }
+}

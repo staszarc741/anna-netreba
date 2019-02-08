@@ -1,0 +1,42 @@
+baseurl: ""
+permalink: /:title/
+markdown: kramdown
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - README.md
+  - gulpfile.js
+  - deploy
+  - deploy-key.enc
+  - deploy-key
+
+url: 'http://anna-netreba.icoach.io'
+template: 'orange' # Доступные шаблоны: deep
+target: '' #Доступные направления: without picture, business
+title: 'Записаться на&nbsp;консультацию'
+author: 'Анна&nbsp;Нетреба'
+description: 'эксперт по&nbsp;коррекции веса и правильному питанию&nbsp;'
+
+# Футер:
+#левая колонка
+footer_left:
+  - <nobr>8-911-373-71-11</nobr>
+#правая колонка
+footer_right:
+  - netrebaanna111@gmail.com
+
+event:
+  textdate: #убрать hidden-xs
+
+vk_group_id:
+fb_group_id: 'shkolapravilnogopitaniia'
+yandex_metrika:
+google_tracking_id: UA-89298735-13 #код всегда одинаковый, для всех проектов
+facebook_pixel_id: 247523672714644
+#vk_retarget_url: 'https://vk.com/rtrg?p=VK-RTRG-154186-9FzhW'
+yandex_money:
+
+trello-list-id: 5c252fb708757237041d4248
+offer: 'Записаться на - консультацию'
+redirect: '/course-ok/'
